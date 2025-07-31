@@ -1,0 +1,37 @@
+package Sum;
+public class Sum1
+{
+	void sum2()
+	{   int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+            sum += i;
+        }
+
+        System.out.println("The sum of numbers from 1 to 100 is: " + sum);
+        sum=0;
+        for (int i = 1; i<=50; i++) {
+        	sum += i;
+        }
+        
+        System.out.println("The sum of numbers from 1 to 50 is: " + sum);
+        sum=0;
+        for (int i = 1; i<=10; i++) {
+        	sum+= i;
+        }
+
+        System.out.println("The sum of numbers from 1 to 10 is: " + sum);
+        sum=0;
+        for (int i = 51; i<= 100; i++) {
+        	sum+=i;
+        }
+        System.out.println("The sum of numbers from 51 to 100 is: " + sum);
+	}
+    public static void main(String[] args) {
+    	
+       Sum1 obj=new Sum1();
+       obj.sum2();
+       
+
+        
+    }
+}
