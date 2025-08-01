@@ -1,0 +1,18 @@
+class B
+{
+Public void get()
+{
+System.out.println("This is super class");
+}
+}
+class C extends B
+{
+Override void get()
+{
+System.out.println("This is subclass");
+}}
+Public static void main( String[] args)
+{
+c of = new c();
+ob.get();
+}
