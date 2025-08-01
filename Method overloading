@@ -1,0 +1,26 @@
+class A
+{
+int a;
+String name, s;
+void set (int a)
+{
+this a=a;
+System.out.println("The Value of a is" +a);
+}
+void set(int a, string name)
+{
+this.a=a;
+this.name=name;
+System.out.println("The value of a is" +a +a +"name is" +name);
+}
+void set(String name, String S)
+{
+this.name=name;
+this.S=S;
+System.out.println("The value of name" +name +S)
+{
+A obj = newA();
+obj.set("Same","Vel");
+obj.set(9,"Vel");
+obj.set(8);
+}
