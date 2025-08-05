@@ -7,3 +7,6 @@ It is defined as same method with same parameters will be defined on both super 
 # Method Over loading vs Method over riding
 Method over loading: Same method name, Different Parameters
 Method over riding : Same method name, Same Parameters
+
+# DEFAULT CONSTRUCTORS
+Class Name as same as Method Name..
